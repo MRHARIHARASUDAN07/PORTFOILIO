@@ -1,0 +1,235 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Portfolio
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #67ffa4;
+            box-sizing: border-box;
+        }
+        header {
+            background: #ebe7e7;
+            color: #132d20;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #d7f540;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .skills, .projects, .achievements {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .skill, .project, .achievement {
+            background: #4099dd;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            width: calc(33% - 2rem);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .skill h3, .project h3, .achievement h3 {
+            margin-top: 0;
+        }
+        .project img, .achievement img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .skill, .project, .achievement {
+                width: calc(50% - 2rem);
+            }
+        }
+        @media (max-width: 480px) {
+            .skill, .project, .achievement {
+                width: 100%;
+                margin: 1rem 0;
+            }
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <h1>
+    Mugudhan's Portfolio
+   </h1>
+  </header>
+  <nav>
+   <a href="#skills">
+    Skills
+   </a>
+   <a href="#projects">
+    Projects
+   </a>
+   <a href="#achievements">
+    Achievements
+   </a>
+  </nav>
+  <div class="container">
+   <section id="skills">
+    <h2 class="section-title">
+     Skills
+    </h2>
+    <div class="skills">
+     <div class="skill">
+      <h3>
+       HTML
+      </h3>
+      <p>
+       Proficient in creating structured and semantic web pages using HTML5.
+      </p>
+     </div>
+     <div class="skill">
+      <h3>
+       CSS
+      </h3>
+      <p>
+       Experienced in designing responsive and visually appealing web pages using CSS3.
+      </p>
+     </div>
+     <div class="skill">
+      <h3>
+       JavaScript
+      </h3>
+      <p>
+       Skilled in adding interactivity and dynamic content to web pages using JavaScript.
+      </p>
+     </div>
+     <div class="skill">
+      <h3>
+       React
+      </h3>
+      <p>
+       Proficient in building modern web applications using React.js.
+      </p>
+     </div>
+     <div class="skill">
+      <h3>
+       Node.js
+      </h3>
+      <p>
+       Experienced in building server-side applications using Node.js.
+      </p>
+     </div>
+     <div class="skill">
+      <h3>
+       Python
+      </h3>
+      <p>
+       Skilled in writing efficient and readable code using Python.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section id="projects">
+    <h2 class="section-title">
+     Projects
+    </h2>
+    <div class="projects">
+     <div class="project">
+      <h3>
+       Project One
+      </h3>
+      <img alt="Screenshot of Project hospital management, a web application with a modern user interface" height="200" src="https://storage.googleapis.com/a1aa/image/7LxB0ZbpGwbqIts2AFYcj63lBGEzKXeUYPa4k6IHDjFe0yenA.jpg" width="300"/>
+      <p>
+       Description of Project One.This is a website which shows the blog of an individuals.
+      </p>
+     </div>
+     <div class="project">
+      <h3>
+       Project Two
+      </h3>
+      <img alt="Screenshot of Project Two, a mobile-friendly web application" height="200" src="https://storage.googleapis.com/a1aa/image/f50wepf6kzdfemg11mPcACaPaot7irFWf7y3Myu6qGVBQtsfJA.jpg" width="300"/>
+      <p>
+       Description of Project Two. This project demonstrates my ability to create responsive web designs.
+      </p>
+     </div>
+     <div class="project">
+      <h3>
+       Project Three
+      </h3>
+      <img alt="Screenshot of Project Three, a data visualization dashboard" height="200" src="https://storage.googleapis.com/a1aa/image/i7xXJHp1NoJkHJYlOgGCE76ajz5CmI88lF9vCePwrb6daZfTA.jpg" width="300"/>
+      <p>
+       Description of Project Three. This project highlights my skills in data visualization and React.js.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section id="achievements">
+    <h2 class="section-title">
+     Achievements
+    </h2>
+    <div class="achievements">
+     <div class="achievement">
+      <h3>
+       Achievement One
+      </h3>
+      <img alt="Certificate of Achievement One" height="200" src="https://storage.googleapis.com/a1aa/image/nI8EBNJOpwo2JtYvUt8sSPaTUPyfLFVruOipLecrWfHFql9nA.jpg" width="300"/>
+      <p>
+       Description of Achievement One. This achievement recognizes my expertise in web development.
+      </p>
+     </div>
+     <div class="achievement">
+      <h3>
+       Achievement Two
+      </h3>
+      <img alt="Certificate of Achievement Two" height="200" src="https://storage.googleapis.com/a1aa/image/XbPXYf65qN30NKAlaMBw8rZ3giLaMHfQWM618VZr1eFzpl9nA.jpg" width="300"/>
+      <p>
+       Description of Achievement Two. This achievement highlights my contributions to open-source projects.
+      </p>
+     </div>
+     <div class="achievement">
+      <h3>
+       Achievement Three
+      </h3>
+      <img alt="Certificate of Achievement Three" height="200" src="https://storage.googleapis.com/a1aa/image/Jh6GXEl2E7bkC1qfetpTEKitsEN2HPjCE2CyJqEvqsJepl9nA.jpg" width="300"/>
+      <p>
+       Description of Achievement Three. This achievement showcases my excellence in coding competitions.
+      </p>
+     </div>
+    </div>
+   </section>
+  </div>
+  <footer>
+   <p>
+    © 2024 mugundhan. All rights reserved.
+   </p>
+  </footer>
+ </body>
+</html>
